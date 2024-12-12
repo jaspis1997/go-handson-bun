@@ -1,0 +1,22 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "go build",
+			"type": "shell",
+			"command": "go",
+			"args": [
+				"build",
+				"-trimpath",
+				"-o",
+				"./${relativeFileDirname}/tutorial.exe",
+				"./${relativeFileDirname}"
+			],
+			"group": "build",
+			"presentation": {
+				"reveal": "always"
+			},
+			"problemMatcher": []
+		}
+	]
+}

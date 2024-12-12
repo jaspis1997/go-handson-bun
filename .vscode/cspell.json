@@ -1,0 +1,17 @@
+{
+	"ignorePaths": [
+		"**/node_modules/**",
+		"**/dist/**",
+		"**/build/**"
+	],
+	"words": [
+		"autoincrement",
+		"gonic",
+		"mattn",
+		"notnull",
+		"nullzero",
+		"sqlitedialect",
+		"sqliteshim",
+		"uptrace"
+	]
+}
